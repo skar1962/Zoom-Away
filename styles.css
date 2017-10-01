@@ -1,17 +1,15 @@
 ﻿body {
   font-family:Arial,Helvettica,sans-serif;
-  background-color:#333333;  */
+  background-color:#333333;
 }
 
 header {
-  width:90%;
-  background-color:black;
+	background: url('background1.jpg') no-repeat 100% 100%;
+  height: 750px;
   color:white;
-  margin-right:auto;
-  margin-left:auto;
-  padding:10px;
-  overflow:hidden;
+  background-size: cover;
 }
+
 
 p {
   margin:10px;

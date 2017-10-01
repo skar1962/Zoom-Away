@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 28, 2017 at 01:08 PM
+-- Generation Time: Oct 01, 2017 at 04:50 PM
 -- Server version: 5.7.14
 -- PHP Version: 7.0.10
 
@@ -72,6 +72,38 @@ INSERT INTO `sitefacilities` (`EHU`, `units_accepted`, `drinking_water`, `waste_
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `siteimages`
+--
+
+CREATE TABLE `siteimages` (
+  `siteid` int(10) NOT NULL,
+  `main` enum('T','F') DEFAULT 'F',
+  `path` varchar(45) DEFAULT NULL,
+  `picture_name` varchar(45) DEFAULT NULL,
+  `picture_desc` varchar(45) DEFAULT NULL,
+  `picture_id` int(10) UNSIGNED NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `siteimages`
+--
+
+INSERT INTO `siteimages` (`siteid`, `main`, `path`, `picture_name`, `picture_desc`, `picture_id`) VALUES
+(2, 'F', '.\\images\\', '2_CaravanSitePic3.jpg', 'View 1', 1),
+(2, 'T', '.\\images\\', '2_CaravanSitePic1.jpg', 'Main', 2),
+(2, 'F', '.\\images\\', '2_CaravanSitePic4.jpg', 'View 2', 3),
+(3, 'T', '.\\images\\', '3_Appletree-Farm000.jpg', 'Main', 4),
+(3, 'F', '.\\images\\', '3_Appletree-Farm003.jpg', 'Barn', 5),
+(3, 'F', '.\\images\\', '3_Appletree-Farm004.jpg', 'Field', 6),
+(3, 'F', '.\\images\\', '3_Appletree-Farm005.jpg', 'House', 7),
+(2, 'F', '.\\images\\', '2_CaravanSitePic2.jpg', 'Pitch', 8),
+(1, 'T', '.\\images\\', '1_Lenacre1.jpg', 'Main', 9),
+(1, 'F', '.\\images\\', '1_Lenacre2.jpg', 'Pitch', 10),
+(1, 'F', '.\\images\\', '1_Lenacre3.jpg', 'Field', 11);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `siteindex`
 --
 
@@ -112,38 +144,6 @@ INSERT INTO `siteinfo` (`main_info`, `hilight_text`, `aside_text`, `siteid`) VAL
 ('Second Site - Lenacre', 'Some hi-lighted text', 'Some Aside Text', 1),
 ('Deep in the heart of Kent, the Garden of England, Appletree Farm, (formally White Post) receives some of the best weather in the UK and is perfect for holiday makers, especially in spring when the fruit trees are in full blossom!\nSituated just 300 yards outside of the Village of Preston, which has a general store and a family butchers as well as dog friendly public house and restaurant. Appletree farm is perfect for walking, cycling and exploring the Kent Countryside.', 'Convenient for Dover Ferry.\n', 'Stodmarsh Nature Reserve\nPerfect for bird lovers with regular sightings of Heron, Marsh Harrier, Sparrow Hawk, Hoopoe, Egrets, and a Blue Winged Teal.\nCanterbury - Only 8 miles from the site and home to the oldest cathedral in the UK as well as St Augustines Abbey, the Norman Castle, St Johns and the Westgate Gardens. Shoppers and theatre goers are well catered for and there are numerous tourist attractions including historic river tours and The Canterbury Tales.', 3);
 
--- --------------------------------------------------------
-
---
--- Table structure for table `sitepictures`
---
-
-CREATE TABLE `sitepictures` (
-  `siteid` int(10) NOT NULL,
-  `main` enum('T','F') DEFAULT 'F',
-  `path` varchar(45) DEFAULT NULL,
-  `picture_name` varchar(45) DEFAULT NULL,
-  `picture_desc` varchar(45) DEFAULT NULL,
-  `picture_id` int(10) UNSIGNED NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `sitepictures`
---
-
-INSERT INTO `sitepictures` (`siteid`, `main`, `path`, `picture_name`, `picture_desc`, `picture_id`) VALUES
-(2, 'F', '.\\pictures\\', '2_CaravanSitePic3.jpg', 'View 1', 1),
-(2, 'T', '.\\pictures\\', '2_CaravanSitePic1.jpg', 'Main', 2),
-(2, 'F', '.\\pictures\\', '2_CaravanSitePic4.jpg', 'View 2', 3),
-(3, 'T', '.\\pictures\\', '3_Appletree-Farm000.jpg', 'Main', 4),
-(3, 'F', '.\\pictures\\', '3_Appletree-Farm003.jpg', 'Barn', 5),
-(3, 'F', '.\\pictures\\', '3_Appletree-Farm004.jpg', 'Field', 6),
-(3, 'F', '.\\pictures\\', '3_Appletree-Farm005.jpg', 'House', 7),
-(2, 'F', '.\\pictures\\', '2_CaravanSitePic2.jpg', 'Pitch', 8),
-(1, 'T', '.\\pictures\\', '1_Lenacre1.jpg', 'Main', 9),
-(1, 'F', '.\\pictures\\', '1_Lenacre2.jpg', 'Pitch', 10),
-(1, 'F', '.\\pictures\\', '1_Lenacre3.jpg', 'Field', 11);
-
 --
 -- Indexes for dumped tables
 --
@@ -163,6 +163,12 @@ ALTER TABLE `sitefacilities`
   ADD UNIQUE KEY `siteid_UNIQUE` (`siteid`);
 
 --
+-- Indexes for table `siteimages`
+--
+ALTER TABLE `siteimages`
+  ADD PRIMARY KEY (`picture_id`);
+
+--
 -- Indexes for table `siteindex`
 --
 ALTER TABLE `siteindex`
@@ -175,25 +181,19 @@ ALTER TABLE `siteinfo`
   ADD UNIQUE KEY `siteid` (`siteid`);
 
 --
--- Indexes for table `sitepictures`
---
-ALTER TABLE `sitepictures`
-  ADD PRIMARY KEY (`picture_id`);
-
---
 -- AUTO_INCREMENT for dumped tables
 --
 
+--
+-- AUTO_INCREMENT for table `siteimages`
+--
+ALTER TABLE `siteimages`
+  MODIFY `picture_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `siteindex`
 --
 ALTER TABLE `siteindex`
   MODIFY `siteid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
--- AUTO_INCREMENT for table `sitepictures`
---
-ALTER TABLE `sitepictures`
-  MODIFY `picture_id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

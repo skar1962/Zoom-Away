@@ -6,6 +6,44 @@
 		<link rel="stylesheet" type="text/css" href="styles.css" > 
 	</head>
 
+	<header>
+		<div class="nav-bar">
+			<div class="wrap-nav zerogrid">
+				<div class="row">
+					<div class="col-1-3">
+						<div class="wrap-col">
+							<div class="logo"><a href="#"><img src="images/logo.png"/></a></div>	
+						</div>
+					</div>
+					<div class="col-2-3">
+						<div class="wrap-col f-right">
+							<div id="menu">
+								<nav>
+								<ul>
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="archive.html">Blog</a></li>
+									<li><a href="single.html">About Us</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="wrap-header">
+			<h1>see the word differently</h1>
+			<span>Request,design and book travel experiences as unique as you are</span>
+			<center><div class="search-form">
+				<form method="get" action="/search" id="search" class="f-right">
+					<input name="q" type="text" size="40" placeholder="Where are you going ?" />
+					<input type="submit" name="Submit" value="Search">
+				</form>
+			</div></center>
+		</div>
+	</header>
+
 	<body>
 		<form action="show_site_details.php" method="post">
 			<section>

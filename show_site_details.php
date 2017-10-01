@@ -37,6 +37,7 @@
 				
 				// Get a response from the database by sending the connection and the query
 				$response = @mysqli_query($dbc, $query);
+				
 				if ($response) {
 									
 					// fetch an associated array from the query response
@@ -140,7 +141,7 @@
 					<li><a href="#tabsFacilities">Facilities</a></li>
 					<li><a href="#tabsLocation">Location</a></li>
 					<li><a href="#tabsPictures">Pictures</a></li>
-					<li><a href="#tabsContact">Contact</a></li>
+					<li><a href="#tabsContact">Contact</a><a href="Pictures/Wallpaper.jpg"><img alt="" src=""></a></li>
 				</ul>
 				<div id="tabsGeneral">
 					<h2>Information about our caravan site</h2>
