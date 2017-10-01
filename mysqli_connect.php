@@ -10,5 +10,6 @@
 		die("Could not connect to MySQL: " .mysqli_connect_error());
 	} else {
 		// echo "Connection to ".DB_NAME." successful <p>";
+		// Some changes made in the branch I hope!
 	}
 ?>
