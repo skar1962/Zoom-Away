@@ -1,35 +1,315 @@
-﻿body {
+﻿header {
+	/*background: url('background1.jpg') no-repeat 100% 100%; */
+  height: 650px;
+  background-size: cover;
+}
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+
+body {
   font-family:Arial,Helvettica,sans-serif;
   background-color:#333333;
 }
 
-header {
-	background: url('background1.jpg') no-repeat 100% 100%;
-  height: 750px;
-  color:white;
-  background-size: cover;
+
+#selectBox {
+	width: 25%;
+  /*
+  This allows us to fill areas with transparent color; the first three numbers representing the color in RGB values and the fourth 
+  representing a transparency value between 0 and 1 (zero being fully transparent and one being fully opaque).
+  */
+  background-color: rgba(192, 189, 189, 0.5);
+  padding: 10px 10px;
+  margin: 60px auto 50px auto;
+  text-align: center;
+  border-radius: 5px;
 }
+
+#randomMessage {
+	width: 34%;
+  margin: 60px auto auto auto;
+  text-align: center;
+}
+
+#randomMessage h1 {
+  color:rgb(102, 6, 6);
+}
+  
 p {
-  margin:10px;
+  margin: 10px 10px 5px 20px;
+  color:rgb(189, 187, 187);
+  font-family: Calibri;
+  font-size: 120%;
+  font-weight: 400;
 }
 
 
 
 h1 {
-  color: yellow;
+  color:rgb(101, 136, 160);
   font-size:200%;
   margin:0;
   padding:0;
   padding-top:10px;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size:160%;
+  color:black;
 }
 
 h3 {
+  text-align: center;
   font-size:130%;
+  color: white;
 }
+
+
+footer {
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  height:50px;
+  padding:10px;
+}
+
+aside {
+  color: #084253;
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color:#084253;
+  border-radius: 15px;
+  background-color:lightgray;
+  padding: 10px;
+
+}
+#container { 
+    width: 99%;
+    margin-left: 0px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 270px;
+    text-align: center;
+    padding: 10px;
+    column-count: 5;
+
+}
+
+#container .column h2 { 
+  color:rgb(15, 49, 71);
+  font-family: Georgia, Serif; 
+  text-align: center;
+  margin-top:10px;
+}
+
+#container .column p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#container .column image { 
+  margin-top: 10px;
+  margin-right: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border-style: solid;
+  border-width: 3px;
+  border-color:#084253;
+}
+
+#NavBar {
+  background-color: #E7E2E2;  
+  opacity: 0.5;
+  display:inline-block;
+  width: 100%;
+}
+
+#NavBar .column1 {
+  float: left;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+
+}
+
+#NavBar .column2 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+
+#NavBar .column3 {
+  float: right;
+
+}
+
+Nav ul {
+  list-style-type: none;
+}
+
+Nav li {
+  float: left;
+  margin-right: 15px;
+}
+
+.button {
+  background-color: rgb(99, 134, 157);
+  border: none;
+  color:white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+
+#tabHeading  {
+  text-align: center;
+}
+
+img.disabled {
+  opacity:0.2;
+}
+
+#subContainer {
+  width: 80%;
+  margin: auto auto auto auto;
+  text-align: center;
+}
+
+#facilities {
+  font-family: arial, sans-serif;
+  color: white;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#facilities td, #facilities th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#facilities tr:nth-child(even) {
+  background-color: gray;
+}
+
+#facilities tr:hover {
+  background-color: #ddd;
+}
+
+#facilities th {
+  color: rgb(99, 134, 157);
+  text-transform: uppercase;
+ 
+}
+
+
+#pictureContainer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.gallery {
+  margin-left: 10px;
+  float: left;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+  
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+  
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+
+}
+
+#container2 { 
+  margin-left: 0px; 
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 1px;
+  display: flex;
+
+}
+
+#container2 .column1 { 
+  width:25%;
+}
+
+#container2 .column2 { 
+  width:50%;
+}
+
+#container2 .column3 { 
+  width: 25%;
+}
+
+#customerName1 {
+  width: 99%;
+  font-size: 100%;
+  }
+  
+  #emailAdd1 {
+  width: 99%;
+  font-size: 100%;
+  }
+  
+  #message1 {
+  width:99%;
+  font-size: 120%;
+  }
+  
+/*
+figure {
+  background-color: yellow;
+}
+
+tabs {
+	width: 95%;
+  background-color: rgba(192, 189, 189, 0.5);
+  padding: 15px 18px;
+  margin: 60px auto 50px auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
 
 hgroup {
   width:70%;
@@ -46,154 +326,71 @@ hgroup h2 {
   font-size:120%;
   line-height:100%;
 }
+  
 
-nav {
-  width:30%;
-  float:right;
-}
-
-nav ul {
-  list-style-type:none;
+#contact {
+  background-color: #313030;
+  text-align: center;
 }
 
 
-nav li {
-  float:left;
-  margin-right:5px;
+#contact .column {
+text-align: justify;
 }
 
-section {
-	width: 30%;
-  /*
-  This allows us to fill areas with transparent color; the first thee numbers representing the color in RGB values and the fourth 
-  representing a transparency value between 0 and 1 (zero being fully transparent and one being fully opaque).
-  */
-  background-color: rgba(192, 189, 189, 0.5);
-  /*
-  margin-right: auto;
-	margin-left: auto;
-	border-color: black;
-	border-style: solid;
-  border-width: 5px;
-  display:inline-block;
- 
+
+::-webkit-input-placeholder {
+  color: grey;
+  font-style: italic;
+}
+
+/* unvisited link 
+a:link {
+  color: blue; 
+}
+
+// visited link 
+a:visited {
+  color: blue; 
+}
+
 */
-  padding: 15px 18px;
-  margin: 60px auto 50px auto;
-  text-align: center;
-  border-radius: 5px;
 
-    
+/* For Tabs */
+
+/*body {font-family: Arial;} */
+
+/* Style the tab 
+div.tab {
+  overflow: hidden; 
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;  
 }
 
-	
-aside {
-  width:60%;
-  margin-right:auto;
-  margin-left:10px;  
-  background-color:#66cc00;
-  font-size:80%; 
-  padding:20px;
-  border:1px solid #696; 
-  border-radius:20px;
+/* Style the buttons inside the tab 
+div.tab button {
+
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px; 
+
 }
 
-footer {
-  width:90%;
-  background-color:black;
-  color:white;
-  margin-right:auto;
-  margin-left:auto;
-  height:50px;
-  padding:10px;
+/* Change background color of buttons on hover 
+div.tab button:hover {
+  background-color: #ddd;
 }
 
-input {
-  background-color: orange;
-  color: #080808;
-  border-radius: 5px;
-  border-width: 1px;
-}
-
-select {
-  margin-left:10px;
-  border-radius:5px;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 50%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: gray;
-}
-
-.background {
-	background-image: url(Background3.jpg);
-	background-size: cover;
-	background-repeat:;
-}
-
-img2 {
-  height: 350px;
-  width:450px;
-  border-radius: 10px; 
-  margin: 2px 2px 2px 2px;
- }
-
-figure {
-}
-
-iframe {
-  border-radius: 10px;
-  margin-left: 40px;
-}
-
-.container {
-  position: relative;
-  float:right;
-  text-align: center;
-  background-color:;
-  height: 400px;
-  max-width: 500px;
-  left: -1px; 
-  top: -85px;
-}
-
-.container2 {
-  position: relative;
-  float:right;
-  text-align: center;
-  background-color:;
-  height: 400px;
-  max-width: 500px;
-  left:-30px; 
-  top: ;
-}
-
-.containerText {
-	position: absolute;
-	top: 50%;
-	left:25%;
-	background-color:;
-	color:white;
-	opacity: 0;
-}
-
-.container:hover {
-	opacity: 0.5;
-}
-
-.container:hover .containerText{
-	opacity: 1;
+/* Create an active/current tablink class 
+div.tab button.active {
+    background-color: #ccc;
 }
 
 
+
+*/
