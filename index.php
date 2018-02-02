@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Zoom-Away v2.2</title>
+		<title>Zoom-Away v2.3</title>
 		<link rel="stylesheet" type="text/css" href="styles.css" > 
 		
 	 	<!-- This script tag references the minified version of jQuery on the MS web site -->
@@ -47,7 +47,7 @@
 					<ul>
 						<li><a href="index.php">Home</a></li> 
 						<!-- <li><a href="#aboutMe">About Me</a></li> -->
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="http://sudeshpatel.com/">About Me</a></li>
 					</ul>
 				</nav>
 			</div>
