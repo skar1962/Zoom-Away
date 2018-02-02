@@ -46,8 +46,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.php">Home</a></li> 
-						<!-- <li><a href="#aboutMe">About Me</a></li> -->
-						<li><a href="http://sudeshpatel.com/">About Me</a></li>
+						<li><a href="http://sudeshpatel.com/" target="_blank">About Me</a></li>
 					</ul>
 				</nav>
 			</div>
