@@ -1,0 +1,47 @@
+﻿body {
+  font-family:Arial,Helvettica,sans-serif;
+  background-color:#636262;
+
+}
+
+p {
+/*  margin: 10px 10px 5px 20px; */
+  color:black;
+  font-family: Calibri;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+h1 {
+  color:rgb(15, 148, 236);
+  font-size:200%;
+  margin:0;
+  padding:0;
+  padding-top:10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size:140%;
+  color:black;
+}
+
+h3 {
+  font-size:110%;
+  color: rgb(27, 132, 136);
+}
+
+
+footer {
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+  height:50px;
+  padding:10px;
+}
+
+
+textarea.form-control{
+  height:100px;
+}
+

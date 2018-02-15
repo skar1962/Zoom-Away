@@ -184,6 +184,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.php">Home</a></li> 
+						<li><a href="featherbed/index.php">Featherbed (Dev)</a></li> 
+
 						<!-- <li><a href="#aboutMe">About Me</a></li>    -->
 						<li><a href="#contact">Contact</a></li>
 					</ul>
