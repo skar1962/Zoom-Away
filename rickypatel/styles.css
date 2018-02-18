@@ -1,0 +1,56 @@
+﻿body {
+  font-family:Arial,Helvettica,sans-serif;
+  /*background-color:#636262; */
+
+}
+
+p {
+/*  margin: 10px 10px 5px 20px; */
+  color:black;
+  font-family: Calibri;
+  font-size: 120%;
+  font-weight: 400;
+}
+
+h1 {
+  color:rgb(11, 85, 131);
+  font-size:200%;
+  margin:0;
+  padding:0;
+  padding-top:10px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size:140%;
+  color:black;
+}
+
+h3 {
+  font-size:110%;
+  color: rgb(27, 132, 136);
+}
+
+textarea.form-control{
+  height:100px;
+}
+
+#videosList {
+  max-width: 600px; 
+   overflow: hidden;
+  
+ }
+ 
+ .video {
+
+   /*background-image: url("./images/playguitar.jpg");*/
+   height: 350px;
+   width: 500px;
+   /*margin-bottom: 50px; */
+ }
+ 
+ /* Hide Play button + controls on iOS */
+/* video::-webkit-media-controls {
+     display:none !important;
+ }
+*/

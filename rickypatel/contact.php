@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Contact Featherbed Farm Shop</title>
+		<title>Contact Ricky Patel</title>
 		<meta charset="utf-8">
 
 		<!-- meta tag required by Bootstrap fpr mobile first development-->
@@ -23,13 +23,12 @@
 
 			<section class="jumbotron text-center">
                 <div class="container">
-                    <h1 class="jumbotron-heading">Contact Us</h1>
-                    For more information about our farm shop or to enquire about any of our farm shop goods, <br>
-                    please feel free to get in touch using the details provided. <br>
-                    or find us on <a target="_blank" href="https://www.facebook.com/featherbed.farm.shop/">facebook <img src="./images/facebook.png" alt="Facebook" /> </a>
-                    <h2>We are here to help.</h2>
-                    
-
+                    <h1 class="jumbotron-heading">Contact Me</h1>
+                    For more information about anything you see on this web site
+                    <br>
+                    please feel free to get in touch using the details provided. 
+                    <br>
+                    or find me on <a target="_blank" href="https://www.facebook.com/the.life.of.ricky">facebook <img src="./images/facebook.png" alt="Facebook" /> </a>
                 </div>
             </section>
 
@@ -37,23 +36,17 @@
 
             <div class="container text-center">
                 <h1>Business Hours</h1>
-                <p> Mon to Sat: 9am – 6pm<br>
-                Sun: 10am – 4pm</p>
+                <p> Mon to Fri: 9am – 5pm<br>
                
                 <h1>Telephone</h1>
-                <h2>01795 478 210</h2>
-                <img src="./images/amex.png" alt="Amex" />
-                <img src="./images/visa.png" alt="Visa" />
-                <img src="./images/visadebit.png" alt="Visa Debit" />
-                <img src="./images/mastercard.png" alt="Mastercard" />
-                <img src="./images/calor.png" alt="Calor" />
+                <h2>01234 567 899</h2>
                 <hr>                
                 <h1>Address</h1>
-                <p>Featherbed lane, iwade, Nr Sittingbourne, Kent, ME9 8RA
+                <p>Address Line 1, Address line 2, Sittingbourne, Kent, ME10 0AB
                 </p>
                 <!-- Google Map -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2490.8101186800927!2d0.7271743158542875!3d51.36978732857634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8d56b4987df63%3A0x9e34515c718f3d9f!2sFeatherbed+Farm+Shop!5e0!3m2!1sen!2snl!4v1518714075809" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-                <caption>Map of our location</caption>
+                <caption>Map of my location</caption>
                 <hr>
                 <!-- End Google Map -->
 

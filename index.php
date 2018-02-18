@@ -47,6 +47,7 @@
 					<ul>
 						<li><a href="index.php">Home</a></li> 
 						<li><a href="featherbed/index.php">Featherbed (Dev)</a></li> 
+						<li><a href="rickypatel/index.php">Rickypatel (Dev)</a></li>
 						<li><a href="http://sudeshpatel.com/" target="_blank">About Me</a></li>
 					</ul>
 				</nav>
