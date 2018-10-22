@@ -97,11 +97,11 @@
 				<!-- Who are we Card -->
 				<div class="card" style="width: 18rem;">
 					<div class="card-body">
-						<h5 class="card-title">Who are we?</h5>
+						<h5 class="card-title" id="Tile 1 title" class="cushycms">Who are we?</h5>
 						<a href="#whoarewe" class="card-link" data-toggle="modal">
 							<img class="card-img-top" src="./images/logo.jpg" alt="Our logo">
 							<!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-							<p class="card-text">We are a family run farm shop in Kent providing a range of local products and services.</p>
+							<p class="card-text" id="Tile 1 text" class="cushycms">We are a family run farm shop in Kent providing a range of local products and services.</p>
 							More..
 						</a>
 					</div>
@@ -110,11 +110,11 @@
 				<!-- Food Produce Card -->
 				<div class="card" style="width: 18rem;">
 					<div class="card-body">
-						<h5 class="card-title">Food Produce</h5>
+						<h5 class="card-title" id="Tile 2 title" class="cushycms">Food Produce</h5>
 						<a href="#foodproduce" class="card-link" data-toggle="modal">
 							<img class="card-img-top" src="./images/morefarm.jpg" alt="Food produce">
 							<!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-							<p class="card-text">We provide fresh, seasonal fruit and vegetables as well as eggs from our free range hens. </p>
+							<p class="card-text" id="Tile 2 text" class="chshycms">We provide fresh, seasonal fruit and vegetables as well as eggs from our free range hens. </p>
 							More..
 						</a>
 					</div>
@@ -183,39 +183,41 @@
 				<div class="modal-dialog modal-lg" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Who are we?</h5>
+							<h5 class="modal-title" class="cushycms" id="More info 1 title">Who are we?</h5>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
 						<div class="modal-body">
 							<img class="card-img-top" src="./images/owners2.jpg" alt="Our logo">
-							<h3> Nothing tastes better than home-grown fresh produce, and here at Featherbed Farm Shop, that is exactly what we offer. </h3>
-							<p>
-								Our extensive range of products include fresh, seasonal fruit and vegetables, free range eggs, potatoes, juices and many more.
-								Established over 30 years ago, our family run farm and shop take pride in producing and sourcing the freshest, tastiest local goods, 
-								We are always on hand to offer help and advice.
-							</p>
-							<h2>Why you should visit our farm shop? </h2>
-							<ul>
-								<li>Family run farm and shop</li>
-								<li>Over 50 years farming experience</li>
-								<li>Farm shop established for over 30 years'</li>
-								<li>Helpful and friendly service</li>
-								<li>Excellent local produce</li>
-								<li>Free advice</li>
-							</ul>
-							<hr>
-							<h2>Areas nearby</h2>
-							<ul>
-								<li>Sittingbourne</li>
-								<li>Maidstone</li>
-								<li>Gillingham</li>
-								<li>Canterbury</li>
-								<li>Ashford</li>
-								<li>Chatham</li>
-								<li>Towns within Kent</li>
-							</ul>
+							<div id="More info 1 text" class="cushycms">
+								<h3> Nothing tastes better than home-grown fresh produce, and here at Featherbed Farm Shop, that is exactly what we offer. </h3>
+								<p>
+									Our extensive range of products include fresh, seasonal fruit and vegetables, free range eggs, potatoes, juices and many more.
+									Established over 30 years ago, our family run farm and shop take pride in producing and sourcing the freshest, tastiest local goods, 
+									We are always on hand to offer help and advice.
+								</p>
+								<h2>Why you should visit our farm shop? </h2>
+								<ul>
+									<li>Family run farm and shop</li>
+									<li>Over 50 years farming experience</li>
+									<li>Farm shop established for over 30 years'</li>
+									<li>Helpful and friendly service</li>
+									<li>Excellent local produce</li>
+									<li>Free advice</li>
+								</ul>
+								<hr>
+								<h2>Areas nearby</h2>
+								<ul>
+									<li>Sittingbourne</li>
+									<li>Maidstone</li>
+									<li>Gillingham</li>
+									<li>Canterbury</li>
+									<li>Ashford</li>
+									<li>Chatham</li>
+									<li>Towns within Kent</li>
+								</ul>
+							</div>
 						</div>
 						<div class="modal-footer">
 							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
