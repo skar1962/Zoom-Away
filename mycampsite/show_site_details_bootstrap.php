@@ -30,7 +30,7 @@
 	Do lots of stuff but dont display anything -->
 	<?php
 		// Connect to the database
-		require_once('mysqli_connect.php');
+		require_once('../../sqlconnect/mysqli_caravan.php');
 		// Set the siteindex variable from the post that was called from the index page
 		$siteindex=$_POST['caravansites'];
 

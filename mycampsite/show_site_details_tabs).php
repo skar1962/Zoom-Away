@@ -43,8 +43,8 @@
 		<!-- Connect to the DB and pull out site details and store into variables -->
 		<?php
 			// Connect to the database
-			require_once('mysqli_connect.php');
-			// Set the siteindex variable from the post that was called from the index page
+			require_once('../../sqlconnect/mysqli_caravan.php');
+						// Set the siteindex variable from the post that was called from the index page
 			$siteindex=$_POST['caravansites'];
 			
 			// Create a query for the database
