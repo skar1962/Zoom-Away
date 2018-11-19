@@ -47,6 +47,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.php">Home</a></li> 
+						<li><a href="https://kent-tutor.com/" target="_blank">Kent-tutor</a></li>
 						<li><a href="featherbed/index.php">Featherbed (Dev)</a></li> 
 						<li><a href="rickypatel/index.php">Rickypatel (Dev)</a></li>
 						<li><a href="login/index.php">Login (Dev)</a></li>
@@ -69,7 +70,9 @@
 			This is just a simple home page to launch websites that I have developed.  
 			<br>Some are still in development (They have the word "Dev" after their names), others 
 			are live.  
-			<br>Feel free to click on the links above.  
+			<br>Feel free to click on the links above.
+			<br>
+			<br>(Note that that live sites will open in a new tab.)  
 		</aside>
 	</header>
 
