@@ -79,6 +79,9 @@ h3 {
   color: white;
 }
 
+div.linepadding {
+  padding:100px;
+}
 
 footer {
   color:white;
@@ -89,16 +92,20 @@ footer {
 }
 
 aside {
-  color: #084253;
-  width: 75%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-color:#084253;
-  border-radius: 15px;
-  background-color:lightgray;
-  padding: 10px;
+    color: #084253;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:#084253;
+    border-radius: 15px;
+    background-color:lightgray;
+    padding: 10px;
+    font-size:120%;
+}
+  
+
 
 }
 #container { 

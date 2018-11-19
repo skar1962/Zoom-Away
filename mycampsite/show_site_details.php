@@ -7,10 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="styles.css" > 
 		
 	 	<!-- This script tag references the minified version of jQuery on the MS web site -->
-	 	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
+	 	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
 
 		<!-- Link to a CDN verion of the jQuery UI library from the MS ASP.NET site.  You can also download the components that you need from the jQueryUI web site instead. -->
-		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
 
 		<script type="text/javascript" src="script.js"></script>
 	</head>
@@ -174,14 +174,11 @@
 			$response->free();
 		} else {
 			echo "Site Pictures query failed";
-
 		}
 
 	?>
 
-	<!-- ============================================
-		DISPLAY SITE DETAILS MAIN PAGE
-	============================================ -->
+	<!-- DISPLAY SITE DETAILS MAIN PAGE -->
 	<header style="background-image:url('<?= $picture_folder.$picture_name ?>')">
 		<div id="NavBar">
 			<div class="column1">
@@ -249,7 +246,7 @@
 		</div>
 	</header>
 
-	<body>
+	
 		<div id="subContainer">
 			<!-- ============================================
 			DISPLAY SITE DETAILS TEXT
@@ -468,9 +465,6 @@
 				</div> <!-- contact -->
 			</div>	<!-- tabsContact -->
 		</div>	<!-- subContainer -->
-
-	
-	</body>
 	<footer>
 		<br>
 		<small>Copyright © 2017 Sudesh Patel</small>

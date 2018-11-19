@@ -27,5 +27,10 @@
   		Not yet a member? <a href="register.php">Sign up</a>
   	</p>
   </form>
+	<br>
+		<br>
+		<aside>
+			This website is to demonstrate a secure login page with a SQL database where encrypted passwords are stored.
+		</aside>
 </body>
 </html>

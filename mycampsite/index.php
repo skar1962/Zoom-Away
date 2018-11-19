@@ -6,16 +6,15 @@
 		<link rel="stylesheet" type="text/css" href="styles.css" > 
 		
 	 	<!-- This script tag references the minified version of jQuery on the MS web site -->
-	 	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
+	 	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
 
 		<!-- Link to a CDN verion of the jQuery UI library from the MS ASP.NET site.  You can also download the components that you need from the jQueryUI web site instead. -->
-		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
 
 
 		<!-- Link to an external style sheet, this one on the asp.net CDN site -->
-		<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/mint-choc/jquery-ui.css" /> 
-		<!--<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/mint-choc/jquery-ui.css" /> -->
-		<!-- <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/sunny/jquery-ui.css" >  -->	
+		<link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/mint-choc/jquery-ui.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/sunny/jquery-ui.css" >  -->	
 
 		<script type="text/javascript" src="script.js"></script>
 
@@ -74,7 +73,7 @@
 				// Close connection to the database
 				mysqli_close($dbc);
 			?>
-			<div ID="selectBox"> 
+			<div ID="selectBox">  
 				<!-- Display a list of caravan sites taken from the database -->
 				<select id="caravansites" required name="caravansites">
 					<option disabled selected value> Select Camp Site</option>
@@ -99,6 +98,9 @@
 
 
 	<footer>
+		<div class="linepadding">
+			<br>
+		</div>
 		<small>Copyright © 2017 Sudesh Patel</small>
 		<a href="https://smallseotools.com/google-pagerank-checker/" title="PR checker by smallseotools"><img src="https://smallseotools.com/pr?style=2" align="absmiddle" alt="PR checker by smallseotools" border="0" /></a>
 	</footer>

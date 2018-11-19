@@ -6,16 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="styles.css" > 
 		
 	 	<!-- This script tag references the minified version of jQuery on the MS web site -->
-	 	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
+	 	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>  
 
 		<!-- Link to a CDN verion of the jQuery UI library from the MS ASP.NET site.  You can also download the components that you need from the jQueryUI web site instead. -->
-		<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/jquery-ui.min.js"></script>
 
 
 		<!-- Link to an external style sheet, this one on the asp.net CDN site -->
-		<!-- <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/mint-choc/jquery-ui.css" />   -->
-		<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/sunny/jquery-ui.css" > 
-		<!-- <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/cupertino/jquery-ui.css" /> -->
+		<!-- <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/mint-choc/jquery-ui.css" />   -->
+		<link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/sunny/jquery-ui.css" > 
+		<!-- <link rel="stylesheet" type="text/css" href="https://ajax.aspnetcdn.com/ajax/jquery.ui/1.12.1/themes/cupertino/jquery-ui.css" /> -->
 	
 		<!--<script type="text/javascript" src="script.js"></script> -->
 
@@ -51,7 +51,7 @@
 						<li><a href="rickypatel/index.php">Rickypatel (Dev)</a></li>
 						<li><a href="login/index.php">Login (Dev)</a></li>
 						<li><a href="mycampsite/index.php">MyCampsite (Dev)</a></li>
-						<li><a href="http://sudeshpatel.com/" target="_blank">About Me</a></li>
+						<li><a href="https://sudeshpatel.com/" target="_blank">About Me</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -63,9 +63,20 @@
 			<h1>No Wordpress, No Drupal.</h1>  
 			<h2>Just good old fashioned software engineering by Sudesh Patel.</h2>
 		</div>
+		<br>
+		<br>
+		<aside>
+			This is just a simple home page to launch websites that I have developed.  
+			<br>Some are still in development (They have the word "Dev" after their names), others 
+			are live.  
+			<br>Feel free to click on the links above.  
+		</aside>
 	</header>
 
 	<footer>
+		<div class="linepadding">
+			<br>
+		</div>
 		<small>Copyright © 2017 Sudesh Patel</small>
 		<a href="https://smallseotools.com/google-pagerank-checker/" title="PR checker by smallseotools"><img src="https://smallseotools.com/pr?style=2" align="absmiddle" alt="PR checker by smallseotools" border="0" /></a>
 	</footer>

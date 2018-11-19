@@ -77,3 +77,16 @@
     border: 1px solid #3c763d;
     margin-bottom: 20px;
   }
+
+  aside {
+    color: #084253;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:#084253;
+    border-radius: 15px;
+    background-color:lightgray;
+    padding: 10px;
+  }
